@@ -1,0 +1,885 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" type="x-icon" href="./Fitlife/images/train.png" width="100px" height="50px">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRAIN2GAIN</title>
+    
+    <!--custom cs link file-->
+    <link rel="stylesheet" href="./Style.css">
+    
+    <!--favicon-->
+    <link rel="shortcut icon" href="favicon.ico" type="image/svg+xml">
+    
+    <!--google font link-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+    href="https://fonts.googleapis.com/css2?family=Catamaran:wght@600;700;800;900&family=Rubik:wght@400;500;800&display=swap"
+    rel="stylesheet">
+
+
+    <!--fontawesome cdn file-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" 
+    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" 
+    crossorigin="anonymous"/>
+
+
+</head>
+<body id="top">
+
+    <!--header section-->
+ <header class="header" data-header>
+    <div class="container">
+        <a href="#" class="logo">
+            <ion-icon name="barbell-sharp" aria-hidden="true"></ion-icon>
+            <span class="span">TRAIN2GAIN</span>
+        </a>
+
+        <nav class="navbar" data-navbar>
+
+            <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+                <ion-icon name="close-sharp" aria-hidden="true"></ion-icon>
+            </button>
+
+            <ul class="nav-bar-list">
+                <li>
+                    <a href="#home" class="navbar-link" data-nav-link>Home</a>
+                </li>
+
+                <li>
+                    <a href="#aboutus" class="navbar-link" data-nav-link>About Us</a>
+                </li>
+
+                <li>
+                    <a href="#classes" class="navbar-link" data-nav-link>Classes</a>
+                </li>
+
+                <li>
+                    <a href="#blog" class="navbar-link" data-nav-link>Blog</a>
+                </li>
+
+                <li>
+                    <a href="#contactus" class="navbar-link" data-nav-link>Contact Us</a>
+                </li>
+                
+            </ul>
+        </nav>
+
+        <button class="btn btn-secondary" id="form-open">Join Now</button>   
+        
+        <button class="nav-open-button" aria-label="open menu" data-nav-toggler>
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+        </button>
+    
+    </div>
+
+    <link rel="preload" as="image" href="./Fitlife/images/hero-banner.png">
+    <link rel="preload" as="image" href="./Fitlife/images/hero-circle-one.png">
+    <link rel="preload" as="image" href="./Fitlife/images/hero-circle-two.png">
+    <link rel="preload" as="image" href="./Fitlife/images/heart-rate.svg">
+    <link rel="preload" as="image" href="./Fitlife/images/calories.svg">
+
+ </header>
+    <!--header section end-->
+  
+    <!--Hero Section-->
+    <main>
+
+         <article>
+
+            <section class="section hero bg-dark has-after has-bg-image" id="home" aria-label="hero" 
+            data-section style="background-image: url('./Fitlife/images/hero-bg.png')">
+            <section class="home1">
+                <div class="form-container">
+                <button class="form_close"><ion-icon  name="close-sharp"></ion-icon></button>
+                <!--Register Form-->
+                <div class="form register-form">
+                    <form action="#">
+                        <h2>Registration</h2>
+                        <div class="input_box">
+                            <div class="input-field">
+                                <input type="text" name="name" placeholder="Full Name" required>
+                            </div>
+                        </div>
+
+                        <div class="input_box">
+                            <div class="input-field">
+                                <input type="text" name="name" placeholder="Username" required>
+                            </div>
+                        </div>
+                        
+                        <div class="input_box">
+                            <div class="input-field">                               
+                                <div class="dropdown">
+                                    <div class="select">
+                                        <span class="selected">Choose your Class</span>
+                                        <div class="caret"></div>
+                                    </div>
+                                    <ul class="menu">
+                                        <li>Weight Lifting</li>
+                                        <li>Cardio & Strength</li>
+                                        <li>Power Yoga</li>
+                                        <li class="active">The Fitness Pack</li>                           
+                                    </ul>
+                                </div>
+                            </div>
+                        </p>
+                        </div>
+                        
+                        <div class="input_box">
+                            <div class="input-field">
+                                <input type="email" name="name" placeholder="E-mail" required>
+                            </div>
+                        </div>
+
+                        <div class="input_box">
+                            <div class="input-field">
+                                <input type="text" name="name" placeholder="Phone Number" required>
+                            </div>
+                        </div>
+
+                        <div class="input_box">
+                            <div class="input-field">
+                                <input type="password" name="name" placeholder="Password" required>
+                            </div>
+                        </div>
+
+                        <div class="input_box">
+                            <div class="input-field">
+                                <input type="password" name="name" placeholder="Confirm Password" required>
+                            </div>
+                        </div>                  
+                        <br>
+                        </div>
+                        <button class="btn-primary">Register</button> 
+                        <div><a href="#" id="register"></a></div>                    
+                    </form>
+                </div>
+                </div>
+            </section>
+            
+            <div class="container">
+
+            <div class="hero-content">
+
+                <p class="hero-subtitle">
+                    <strong class="strong">The Best</strong>Fitness Club
+                </p>
+
+                <h1 class="h1 hero-title">Don't Dream Of It Train For It</h1>
+
+                <p class="section-text">Step into our state-of-the-art fitness heaven, where every workout is a journey towards a healthier, stronger you. 
+                    Our cutting-edge equipment caters to all fitness levels, ensuring a dynamic and personalized experience for everyone. Immerse yourself 
+                    in a vibrant community of like-minded individuals, 
+                    fueled by a passion for wellness. Elevate your fitness journey with us because here, 
+                    every drop of sweat is a step towards your best self.
+                </p>
+
+                <a href="#aboutus" class="btn btn-secondary">Get Started</a>
+            </div>
+
+            <div class="hero-banner">
+                <img src="./Fitlife/images/hero-banner.png" width="660" height="753" alt="hero banner"
+                class="w-100">
+                <img src="./Fitlife/images/hero-circle-one.png" width="666" height="666" aria-hidden="true" alt="" 
+                class="circle circle-1">
+                <img src="./Fitlife/images/about-circle-two.png" width="666" height="666" 
+                class="circle circle-2">
+                <img src="./Fitlife/images/heart-rate.svg" width="255" height="278" alt="heart rate" 
+                class="abs-image abs-image1">
+                <img src="./Fitlife/images/calories.svg" width="348" height="224"alt="calories" 
+                class="abs-image abs-image2">
+            
+            </div>
+
+        </div>
+
+        </section>
+
+    <!--About-->
+
+        <section class="section about" id="aboutus" aria-label="hero">
+            <div class="container">
+
+                <div class="about-banner has-after">
+                    <img src="./Fitlife/images/about-banner.png" width="660" height="648"
+                    loading="lazy" alt="about banner" class="w-100">
+
+                    <img src="./Fitlife/images/about-circle-one.png" width="660" height="534" loading="lazy" 
+                    aria-hidden="true" 
+                    alt="" class="circle newcircle-1">
+                    
+                    <img src="./Fitlife/images/about-circle-two.png" width="660" height="534" loading="lazy" 
+                    aria-hidden="true" 
+                    alt=""  class="circle newcircle-2">
+
+                    <img src="./Fitlife/images/fitness.png" width="650" height="174" loading="lazy"
+                    alt="fitness"
+                    class="abs-img w-100">
+                </div>
+
+                <div class="about-content">
+
+                    <p class="section-subtitle">About Us</p>
+
+                    <h2 class="h2 section-title">Welcome to Our Fitness Gym</h2>
+
+                    <p class="section-text">Train2Gain has established itself as the leading network of fitness centers in the country, earning an unparalleled reputation among fitness enthusiasts. 
+                        We take pride in our ability to coach individuals at all skill levels, from beginners to seasoned athletes, while also offering comprehensive healthcare services for both prevention 
+                        and treatment to our members. Train2Gain Gym boasts a spacious and adaptable environment, providing a holistic exercise experience.
+                    </p>
+
+                    <p class="section-text">At Train2Gain Gyms, we firmly believe that fitness is a lifestyle. What sets us apart from other gyms is our genuine passion for training and unwavering 
+                        dedication to our members. Our team of trainers are acknowledged experts in their respective fields, committed to working with you to create a customized fitness plan tailored to your goals. 
+                        Whether you are a novice or a seasoned veteran, we have the expertise and resources to support you on your fitness journey.
+                    </p>
+
+                </div>
+
+                <div class="wrapper">
+
+                    <div class="about-coach">
+
+                        <figure class="coach-avatar">
+                            <img src="./Fitlife/images/about-coach.jpg" width="65" height="65" loading="lazy"
+                            alt="Trainer">
+                        </figure>
+
+                        <div>
+                            <h3 class="h3 coach-name">Daniel Carter</h3>
+ 
+                            <p class="coach-title">Our Coach</p>
+
+                            <a href="#blog" class="btn btn-primary">Explore More</a>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    <!--Video-->
+        <section class="video">
+        <div class="hero1">
+
+            <video autoplay loop muted plays-inline class="bg-video">
+                <source src="./Fitlife/video/Cinematic Fitness Video - Sony A7siii - Sigma 24-70 - S LOG 3.mp4" type="video/mp4">
+            </video>
+    
+            <div class="content">
+                <h1>Explore Fitness Life</h1>
+                <a href="#classes">Watch More</a>
+            </div>
+        </div>
+        </section>
+        <br>
+        <br>
+
+    <!--Class-->
+
+        <section class="section class bg-dark has-bg-image" id="classes" arial-label="class"
+        style="background-image: url(./Fitlife/images/classes-bg.png)">
+
+        <div class="container">
+
+            <p class="section-subtitle">Our Classes</p>
+
+            <h2 class="h2 section-title text-center">Fitness Classes For Every Goal</h2>
+            
+            <ul class="class-list has-scrollbar">
+
+                <li class="scrollbar-item">
+
+                    <div class="class-card">
+
+                        <figure class="card-banner img-holder" style="--width: 416; --height: 240;">
+                         <img src="./Fitlife/images/class-1.jpg" width="416" height="240" loading="lazy" 
+                         alt="Weight Lifting" class="img-cover">
+                        </figure>
+
+                        <div class="card-content">
+
+                            <div class="title-wrapper">
+
+                                <img src="./Fitlife/images/class-icon-1.png" width="52" height="52" 
+                                aria-hidden="true" alt="" class="title-icon">
+
+                                <h3 class="h3">Weight Lifting
+                                    <a href="#" class="card-title"></a>
+                                </h3>
+
+                            </div>
+
+                            <p class="card-text">
+                                Lifting weights at the gym entails the process of raising and lowering weights to develop strength, 
+                                sculpt muscles, and improve overall fitness through focused resistance training.
+                            </p>
+
+                            <div class="card-progress">
+
+                                <div class="progress-wrapper">
+                                    <p class="progress-label">Class Full</p>
+
+                                    <span class="progress-value">85%</span>
+                                </div>
+
+                                <div class="progress-bg">
+                                    <div class="progress-bar" style="width: 85%"></div>
+                                </div>
+                                <br>
+                                <button><a href="#home" class="btn btn-primary" style="font-size: 15px;">Join Now</a></button>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </li>
+
+                <li class="scrollbar-item">
+
+                    <div class="class-card">
+
+                        <figure class="card-banner img-holder" style="--width: 416; --height: 240;">
+                         <img src="./Fitlife/images/Cardio and Strength (1).jpg" width="416" height="240" loading="lazy" 
+                         alt="Cardio & Strength" class="img-cover">
+                        </figure>
+
+                        <div class="card-content">
+
+                            <div class="title-wrapper">
+
+                                <img src="./Fitlife/images/class-icon-2.png" width="52" height="52" 
+                                aria-hidden="true" alt="" class="title-icon">
+
+                                <h3 class="h3">Cardio & Strength
+                                    <a href="#" class="card-title"></a>
+                                </h3>
+
+                            </div>
+
+                            <p class="card-text">
+                                Cardio and strength exercises such as running and cycling, elevate your heart rate, 
+                                enhance endurance, and promote overall cardiovascular health, making them essential 
+                                for burning calories and improving stamina. 
+                            </p>
+
+                            <div class="card-progress">
+
+                                <div class="progress-wrapper">
+                                    <p class="progress-label">Class Full</p>
+
+                                    <span class="progress-value">70%</span>
+                                </div>
+
+                                <div class="progress-bg">
+                                    <div class="progress-bar" style="width: 85%"></div>
+                                </div>
+                                
+                            </div>
+                            <br>
+                            <button><a href="#home" class="btn btn-primary" style="font-size: 15px;">Join Now</a></button>
+                        </div>
+
+                    </div>
+
+                </li>
+
+                <li class="scrollbar-item">
+
+                    <div class="class-card">
+
+                        <figure class="card-banner img-holder" style="--width: 416; --height: 240;">
+                         <img src="./Fitlife/images/power-yoga-fb.jpg" width="416" height="240" loading="lazy" 
+                         alt="Power Yoga" class="img-cover">
+                        </figure>
+
+                        <div class="card-content">
+
+                            <div class="title-wrapper">
+
+                                <img src="./Fitlife/images/class-icon-3.png" width="52" height="52" 
+                                aria-hidden="true" alt="" class="title-icon">
+
+                                <h3 class="h3">Power Yoga
+                                    <a href="#" class="card-title"></a>
+                                </h3>
+
+                            </div>
+
+                            <p class="card-text">
+                                Power yoga at the gym is a dynamic and energetic practice that combines traditional 
+                                yoga poses with a vigorous flow, emphasizing strength, flexibility, and stamina. 
+                            </p>
+
+                            <div class="card-progress">
+
+                                <div class="progress-wrapper">
+                                    <p class="progress-label">Class Full</p>
+
+                                    <span class="progress-value">90%</span>
+                                </div>
+
+                                <div class="progress-bg">
+                                    <div class="progress-bar" style="width: 85%"></div>
+                                </div>
+                                <br>
+                                <button><a href="#home" class="btn btn-primary" style="font-size: 15px;">Join Now</a></button>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </li>
+
+                <li class="scrollbar-item">
+
+                    <div class="class-card">
+
+                        <figure class="card-banner img-holder" style="--width: 416; --height: 240;">
+                         <img src="./Fitlife/images/f1.webp" width="416" height="240" loading="lazy" 
+                         alt="The Fitness Pack" class="img-cover">
+                        </figure>
+
+                        <div class="card-content">
+
+                            <div class="title-wrapper">
+
+                                <img src="./Fitlife/images/class-icon-4.png" width="52" height="52" 
+                                aria-hidden="true" alt="" class="title-icon">
+
+                                <h3 class="h3">The Fitness Pack
+                                    <a href="#" class="card-title"></a>
+                                </h3>
+
+                            </div>
+
+                            <p class="card-text">
+                                Elevate your fitness journey at the gym, where strength meets sweat. 
+                                Sculpt your body and boost your energy as you embrace the invigorating 
+                                challenge of reaching new heights in health and well-being.
+                            </p>
+
+                            <div class="card-progress">
+
+                                <div class="progress-wrapper">
+                                    <p class="progress-label">Class Full</p>
+
+                                    <span class="progress-value">90%</span>
+                                </div>
+
+                                <div class="progress-bg">
+                                    <div class="progress-bar" style="width: 85%"></div>
+                                </div>
+                                <br>
+                                <button><a href="#home" class="btn btn-primary" style="font-size: 15px;">Join Now</a></button>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </li>
+
+                
+
+            </ul>
+
+        </div>
+
+    </section>
+
+    <!--Blogs-->
+
+    <section class="section blog" id="blog" aria-label="blog">
+
+            <div class="container">
+
+                 <p class="section-subtitle">Our Blogs</p>
+
+                 <h2 class="h2 section-title text-center">Latest Blog Feed</h2>
+
+                 <ul class="blog-list has-scrollbar">
+
+                    <li class="scrollbar-item">
+
+                        <div class="blog-card">
+
+                            <div class="blog-banner img-holder" style="--width: 440; --height: 270;">
+                                <img src="./Fitlife/images/blog-1.jpg" width="440" height="270" loading="lazy" 
+                                alt="Going to the gym for the first time" class="img-cover">
+
+                                <time class="blog-meta" datetime="2023-08-05">08 August 2023</time>
+                            
+                            </div>
+
+                            <div class="blog-content">
+
+                            <h3 class="h3">
+                                <a href="#" class="blog-title">Going to the gym for the first time</a>
+                            </h3>
+
+                            <p class="blog-text">
+                                Embarking on a fitness journey, stepping into the gym for the first time is 
+                                a mix of excitement. 
+                            </p>
+
+                            <a href="#blog"class="btn-link has-before">Read More</a>
+                            
+                            
+
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="scrollbar-item">
+                        <div class="blog-card">
+
+                            <div class="blog-banner img-holder" style="--width: 440; --height: 270;">
+                                <img src="./Fitlife/images/blog-2.jpg" width="440" height="270" loading="lazy" 
+                                alt="Parturient accumsan cacus pulvinar magna" class="img-cover">
+
+                                <time class="blog-meta" datetime="2023-09-10">10 July 2023</time>
+                            
+                            </div>
+
+                            <div class="blog-content">
+
+                            <h3 class="h3">
+                                <a href="#" class="blog-title"> A Positive Gym Experience</a>
+                            </h3>
+
+                            <p class="blog-text">
+                                I recently joined Train2Gain and have had an overwhelmingly positive experience thus far. 
+                                
+                            </p>
+
+                            <a href="#blog"class="btn-link has-before">Read More</a>
+
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="scrollbar-item">
+                        <div class="blog-card">
+
+                            <div class="blog-banner img-holder" style="--width: 440; --height: 270;">
+                                <img src="./Fitlife/images/blog-3.jpg" width="440" height="270" loading="lazy" 
+                                alt="Risus purus namien parturient accumsan cacus" class="img-cover">
+
+                                <time class="blog-meta" datetime="2023-10-12">12 May 2023</time>
+                            
+                            </div>
+
+                            <div class="blog-content">
+
+                            <h3 class="h3">
+                                <a href="#" class="blog-title">My Experience at Train2Gain</a>
+                            </h3>
+
+                            <p class="blog-text">
+                                As a fitness enthusiast, my journey at Train2Gain has been nothing short of transformative.
+                                
+                            </p>
+
+                            <a href="#blog"class="btn-link has-before">Read More</a>
+
+                            </div>
+                        </div>
+                    </li>
+                 </ul>
+            </div>
+
+        </section>
+        
+    <!--Contact Us-->
+    <section class="contact-us class bg-dark has-bg-image"
+    style="background-image: url(./Fitlife/images/classes-bg.png)" id="contactus">
+        <div class="contact-container">
+            <form action="" class="contact-left">
+                <div class="contact-left-title">
+                    <h2 class="section-subtitle">Get In Touch</h2>
+                    <br>
+                </div>
+                <img src="./Fitlife/images/inside-the-gym.jpg" alt="inside-the-gym">
+                <br>
+                <a class="logo1">
+                    <ion-icon name="barbell-sharp" aria-hidden="true"></ion-icon>
+                    <span class="span" display="block">TRAIN2GAIN</span>
+                </a>
+                <address class="address">
+                        No.518, Obeysekarapura main road, Obeysekarapura, Rajagiriya.
+                    </address>     
+            </form>
+            <div class="contact-right">
+                <p class="contact-section">Questions? Contact Us Below</p>
+            
+                <p>First Name<input type="text" name="name" class="contact-inputs" required></p>
+                <p>Last Name<input type="text" name="name" class="contact-inputs" required></p>
+                <p>E-mail*<input type="email" name="name" class="contact-inputs" required></p> 
+                <p>Password*<input type="password" name="name" class="contact-inputs" required></p>
+                <p>Phone Number<input type="number" name="name" class="contact-inputs" required></p>
+                <p>Subject<input type="text" name="text" class="contact-inputs"></p>
+                <p>Message <br>
+                <textarea name="message" class="contact-inputs" cols="auto" rows="auto"></textarea><br></p>
+                <button class="btn-primary">Submit</button> 
+            </div>
+        </div>
+    </section>
+    <br>
+    <br>
+    <br>
+    <!--BMI-->
+    <section class="BMI-calculator">
+        <div class="calculate-container container grid">
+            <div class="calculate-content">
+                <div class="section-titles">
+                    <h1 class="section-title-border">What is BMI?</h1>
+                </div>
+    
+                <p class="calculate-description">
+                    BMI stands for Body Mass Index, a numerical measurement 
+                    derived from an individual's height and weight. 
+                    It is commonly used as an indicator of body fat and is 
+                    employed to assess whether a person has a healthy body 
+                    weight in relation to their height.
+                    <br>
+                    The BMI is calculated by dividing a person's weight in 
+                    kilograms by the square of their height in meters. The 
+                    resulting number is then categorized into different ranges,
+
+                    <ul class="data-list">
+                        
+                        <li>Underweight: BMI less than 18.5</li>
+    
+                        <li>Normal Weight: BMI between 18.5 & 24.9</li>
+                        
+                        <li>Overweight: BMI between 25 and 29.9</li>
+                        
+                        <li>Obesity: BMI 30 or greater</li>
+                    </ul>      
+                </p>
+    
+                <form action="" class="calculate-form" id="calculate-form">
+    
+                    <div class="calculate-box">
+                        <input type="number" placeholder="Height" class="calculate-input" id="calculate-cm">
+                        <label for="" class="calculate-label">cm</label>
+                    </div>
+    
+                    <div class="calculate-box">
+                        <input type="number" placeholder="Weight" class="calculate-input" id="calculate-kg">
+                        <label for="" class="calculate-label">kg</label>
+                    </div>
+    
+                    <button type="submit" class="btn btn-primary">
+                        Calculate
+                        <p class="calculate-message" id="calculate-message"></p>
+                    </button>
+                    
+                </form>
+            </div>     
+            
+            <img src="./Fitlife/images/calculate-img.png" alt="" class="calculate-img">
+            
+        </div>
+    </section> 
+        
+    </article>
+    
+    </main>
+    <br>  
+    <!--Footer-->
+    <footer class="footer">
+        <div class="section footer-top bg-dark has-bg-image" 
+            style="background-image: url('./Fitlife/images/footer-bg.png')">
+            <div class="container">
+                <div class="footer-brand">
+                    <a href="#" class="logo">
+                        <ion-icon name="barbell-sharp" aria-hidden="true"></ion-icon>
+
+                        <span class="span">Train2Gain</span>
+                    </a>
+
+                    <p class="footer-brand-text">Don't Dream Of It Train For It</p>
+
+                    <div class="wrapper">
+                        <img src="./Fitlife/images/footer-clock.png" width="34" height="34" loading="lazy" 
+                        alt="Clock">
+                        <ul class="footer-brand-list">
+                            <li>
+                                <p class="footer-brand-title">Monday - Friday</p>
+                                <p>8.00 a.m.-10.00 p.m.</p>
+                            </li>
+
+                            <li>
+                                <p class="footer-brand-title">Saturday - Sunday</p>
+
+                                <p>8.00 a.m.-2.00 p.m.</p>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+
+            <ul class="footer-list">
+                <li>
+                    <p class="footer-list-title has-before">Our Links</p>
+                </li>
+
+                <li>
+                    <a href="#home" class="footer-link">Home</a>
+                </li>
+
+                <li>
+                    <a href="#aboutus" class="footer-link-bt">About Us</a>
+                </li>
+
+                <li>
+                    <a href="#classes" class="footer-link-bt">Classes</a>
+                </li>
+
+                <li>
+                    <a href="#blog" class="footer-link-bt">Blog</a>
+                </li>
+
+                <li>
+                    <a href="#contactus" class="footer-link-bt">Contact Us</a>
+                </li>
+                </ul>
+
+                <ul class="footer-list">
+
+                <li>
+                    <p class="footer-list-title has-before">Contact Us</p>
+                </li>
+            
+                <li class="footer-list-item">
+                    <div class="icon">
+                         <ion-icon name="location" aria-hiden="true"></ion-icon>
+                    </div>
+
+                    <address class="address footer-link">
+                        No.518, Obeysekarapura main road, Obeysekarapura, Rajagiriya.
+                    </address>
+                </li>
+
+                <li class="footer-list-item">
+                    <div class="icon">
+                        <ion-icon name="call" aria-hiden="true"></ion-icon>
+                    </div>
+
+                    <div>
+                      <a href="tel:0114-565-852" class="footer-link">011-4565-852</a>
+
+                      <a href="tel:071-3178-847" class="footer-link">071-3178-847</a>
+                    </div>
+                </li>
+
+                <li class="footer-list-item">
+                    <div class="icon">
+                        <ion-icon name="mail" aria-hiden="true"></ion-icon>
+                    </div>
+
+                    <div>
+                      <a href="mailto:info@train2gain.com" class="footer-link">info@train2gain.com</a>
+
+                      <a href="mailto:services@train3gain.com" class="footer-link">services@train2gain.com</a>
+                    </div>
+                </li>
+            </ul>
+
+            <ul class="footer-list">
+                <div>
+                <li>
+                    <p class="footer-list-title has-before">Our Newsletter</p>
+                </li>
+
+                <li>
+                    <form action="" class="footer-form">
+                        <input type="email" name="email_address" aria-label="email" 
+                        placeholder="Email Address" required class="input-field">
+
+                        <button type="submit" class="btn btn-primary" aria-label="Submit">
+                            <ion-icon name="chevron-forward-sharp" aria-hidden="true"></ion-icon>
+                        </button>
+                    </form>
+                </li>
+                </div>
+                <li>
+                    <ul class="social-list">
+
+                        <li>
+                            <a href="#" class="social-link">
+                                <ion-icon name="logo-facebook" aria-hidden="true"></ion-icon>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="social-link">
+                                <ion-icon name="logo-instagram" aria-hidden="true"></ion-icon>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="social-link">
+                                <ion-icon name="logo-twitter" aria-hidden="true"></ion-icon>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <div class="container">
+            <p class="copyright">
+                &copy; 2022 Train2Gain. All Right Reserved By Train2Gain 
+                <a href="#" class="copyright-link"></a>
+            </p>
+
+            <ul class="footer-bottom-list">
+
+                <li>
+                    <a href="#" class="footer-bottom-link has-before">Privacy Policy</a>
+                </li>
+
+                <li>
+                    <a href="#" class="footer-bottom-link has-before">Terms & Conditions</a>
+                </li>
+            </ul>
+        </div>
+    </div>   
+</footer>
+
+<!--Back to top-->
+
+<a  href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="caret-up-sharp" aria-hidden="true"></ion-icon>
+</a>
+
+<!--custom JS file link-->
+    <script src="script.js"></script>
+
+<!--ion-icon link-->
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>
+

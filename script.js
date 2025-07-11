@@ -67,7 +67,7 @@ options.forEach(option => {
     option.addEventListener('click', () => {
         selected.innerText = option.innerText;
 
-        select.classList.remove('select-clicked'); 
+        select.classList.remove('select-clicked');
 
         select.classList.remove('caret-rotate');
 
@@ -79,7 +79,7 @@ options.forEach(option => {
 
         option.classList.add('active');
     });
-});    
+});
 });
 
 /*****************************************header & back to top btn active*************************************/
@@ -123,7 +123,7 @@ const calculateBmi = (e) =>{
         //BMI Formula
         const cm  = calculateCm.value / 100,
               kg  = calculateKg.value,
-              bmi = (kg / (cm * cm))
+              bmi = (kg / (cm * cm)).toFixed(2)
         
         //show your health status
         if(bmi < 18.5){

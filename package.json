@@ -1,0 +1,16 @@
+{
+  "name": "starter-file---fitlife-train2gain",
+  "version": "1.0.0",
+  "main": "index.html",
+  "scripts": {
+    "dev": "http-server ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+
+}

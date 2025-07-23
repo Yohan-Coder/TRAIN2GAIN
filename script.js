@@ -3,8 +3,8 @@
 /************************************************add event on element*****************************************/
 
 const addEventOnElem = (elem, type, callback) => {
-    if (elem.length > 1) 
-    { 
+    if (elem.length > 1)
+    {
         for (let i = 0; i < elem.length; i++) {
             elem[i].addEventListener(type, callback);
         }
@@ -148,5 +148,4 @@ const calculateBmi = (e) =>{
          }, 4000)
   222  }
 }
-
 calculateForm.addEventListener('submit', calculateBmi)
